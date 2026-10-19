@@ -1,12 +1,11 @@
 <!-- Header Banner -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=300&section=header&text=MUHAMMAD%20HUSNAIN%20IQBAL&fontSize=70&fontColor=fff&animation=twinkling&fontAlignY=38&desc=.NET%20Developer%20%7C%20Software%20Engineer%20%7C%20VU%20Student&descAlignY=51&descAlign=62" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=300&section=header&text=MUHAMMAD%20HUSNAIN%20IQBAL&fontSize=55&fontColor=fff&animation=twinkling&fontAlignY=38&desc=.NET%20Developer%20%7C%20Software%20Engineer%20%7C%20VU%20Student&descAlignY=51&descAlign=62" width="100%"/>
 </div>
 
 <!-- Animated Typing -->
-
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=512BD4&center=true&vCenter=true&width=800&lines=%F0%9F%92%BB+.NET+Developer%3B%F0%9F%9A%80+C%23+%26+ASP.NET+Core%3B%F0%9F%8E%93+Virtual+University+Student%3B%F0%9F%9B%A0%EF%B8%8F+Backend+Engineer%3B%F0%9F%8C%90+Problem+Solver%3B%E2%9A%A1%EF%B8%8F+SQL+Server+Expert" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=512BD4&center=true&vCenter=true&width=800&lines=%F0%9F%92%BB+.NET+Core+Developer;%F0%9F%9A%80+C%23+%26+ASP.NET+MVC;%F0%9F%8E%93+Student+at+Virtual+University;%F0%9F%9B%A0%EF%B8%8F+Backend+Engineer;%F0%9F%8C%90+Problem+Solver" alt="Typing SVG" />
 </div>
 
 <!-- Profile Views Counter -->
@@ -20,14 +19,12 @@
 <!-- Connect Section -->
 <h2 align="center">🌐 Connect With Me</h2>
 <div align="center">
-  <a href="https://www.linkedin.com/in/muhammad-husnain-iqbal">
+  <!-- Apna LinkedIn link yahan dalein agar hai toh -->
+  <a href="https://www.linkedin.com/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   <a href="mailto:bc250416281mhi@vu.edu.pk">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-  <a href="https://github.com/Muhammadhusnainiqbal-DotNetdeveloper">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
 </div>
 
@@ -47,8 +44,8 @@ namespace HusnainPortfolio
     {
         public string Name { get; set; } = "Muhammad Husnain Iqbal";
         public string Location { get; set; } = "Faisalabad, Pakistan";
-        public string Role { get; set; } = ".NET Developer";
-        public string University { get; set; } = "Virtual University of Pakistan";
+        public string Role { get; set; } = ".NET Developer & Student";
+        public string University { get; set; } = "Virtual University of Pakistan (VU)";
         
         public string[] Skills { get; set; } = {
             "C#", "ASP.NET Core", "MVC", "Entity Framework",
@@ -56,7 +53,6 @@ namespace HusnainPortfolio
         };
         
         public string CurrentFocus { get; set; } = "Building Scalable Web Applications";
-        public string Mission { get; set; } = "To build secure and efficient backend systems 🚀";
 
         public string GetDailyRoutine()
         {
@@ -70,142 +66,284 @@ namespace HusnainPortfolio
         {
             var husnain = new DotNetDeveloper();
             Console.WriteLine($"Welcome to {husnain.Name}'s profile! 🚀");
+            Console.WriteLine($"Focus: {husnain.CurrentFocus}");
         }
     }
 }
-🎖️ Current Status & Goals
-🔴 Currently Working On: Advanced Web Applications using ASP.NET Core
 
-🎓 Learning: Microservices Architecture & Cloud Deployment (Azure)
+### 🎖️ Current Status & Goals
 
-🤝 Collaborating: Open-source .NET projects
+- 🔴 **Currently Working On:** Advanced Red Team Tactics & Malware Analysis
+- 🎓 **Learning:** OSCP Preparation & Advanced Python for Security Automation
+- 🤝 **Collaborating:** Open-source security tools for the community
+- 🎯 **2026 Goals:** OSCP Certification, 100+ CTF Wins, Security Conference Speaker
+- 📧 **Reach Me:** ceoirfan@cyberlearn.systems | [LinkedIn](https://www.linkedin.com/in/irfan-security/)
 
-🎯 2026 Goals: Master .NET Ecosystem, Build 10+ Major Projects
+---
 
-📧 Reach Me: bc250416281mhi@vu.edu.pk | LinkedIn
+<!-- Achievements Section -->
+<h2 align="center">🏆 Achievements & Certifications</h2>
 
-<!-- Achievements Section --><h2 align="center">🏆 Achievements & Certifications</h2><div align="center"> <img src="https://img.shields.io/badge/Virtual%20University-BS%20Computer%20Science-blue?style=for-the-badge&logo=academia&logoColor=white" alt="VU" /> <img src="https://img.shields.io/badge/.NET-ASP.NET%20Core-purple?style=for-the-badge&logo=dotnet&logoColor=white" alt="DotNet" /> <img src="https://img.shields.io/badge/C%23-Expert-green?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#" /> <img src="https://img.shields.io/badge/SQL%20Server-Database-red?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="SQL" /> </div><table align="center"> <tr> <td align="center"> <img src="https://img.shields.io/badge/🎯_Projects-5+-brightgreen?style=flat-square" /><br/> <b>Completed Projects</b> </td> <td align="center"> <img src="https://img.shields.io/badge/🏫_Semester-Fall_2026-red?style=flat-square" /><br/> <b>Current Semester</b> </td> <td align="center"> <img src="https://img.shields.io/badge/📝_Courses-5-blue?style=flat-square" /><br/> <b>Enrolled Courses</b> </td> <td align="center"> <img src="https://img.shields.io/badge/⭐_CGPA-Target_3.5+-gold?style=flat-square" /><br/> <b>Academic Goal</b> </td> </tr> </table>
-<!-- Skills & Expertise --><h2 align="center">🛠️ Technical Arsenal</h2>
-🔐 Backend & Database Skills
 <div align="center">
-Backend Development	Database Management	Frontend Basics
-https://img.shields.io/badge/-C%23-purple	https://img.shields.io/badge/-SQL_Server-red	https://img.shields.io/badge/-HTML5-orange
-https://img.shields.io/badge/-.NET_Core-purple	https://img.shields.io/badge/-EF_Core-blue	https://img.shields.io/badge/-CSS3-blue
-https://img.shields.io/badge/-ASP.NET_MVC-purple	https://img.shields.io/badge/-LINQ-blue	https://img.shields.io/badge/-JavaScript-yellow
+  <img src="https://img.shields.io/badge/TryHackMe-Top%2010%25-red?style=for-the-badge&logo=tryhackme&logoColor=white" alt="TryHackMe" />
+  <img src="https://img.shields.io/badge/HackTheBox-Hacker-green?style=for-the-badge&logo=hackthebox&logoColor=white" alt="HackTheBox" />
+  <img src="https://img.shields.io/badge/Bug%20Bounty-Active%20Hunter-orange?style=for-the-badge&logo=bugcrowd&logoColor=white" alt="Bug Bounty" />
+  <img src="https://img.shields.io/badge/CTF%20Player-50%2B%20Wins-blue?style=for-the-badge&logo=ctftime&logoColor=white" alt="CTF" />
 </div>
-💻 Programming & Scripting
-<p align="center"> <img src="https://skillicons.dev/icons?i=cs,dotnet,html,css,javascript,bootstrap,mysql" alt="Programming Languages"/> </p>
-🐧 Operating Systems & Platforms
-<p align="center"> <img src="https://skillicons.dev/icons?i=windows,linux,git,github,visualstudio,vscode,postman" alt="Operating Systems"/> </p>
-🔧 Tools & Frameworks
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="https://img.shields.io/badge/🎯_CTF_Wins-50+-brightgreen?style=flat-square" /><br/>
+      <b>CTF Competitions</b>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/🐛_Bugs_Found-25+-red?style=flat-square" /><br/>
+      <b>Security Vulnerabilities</b>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/📝_Writeups-100+-blue?style=flat-square" /><br/>
+      <b>Technical Articles</b>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/⭐_Rank-Top_10%25-gold?style=flat-square" /><br/>
+      <b>TryHackMe Ranking</b>
+    </td>
+  </tr>
+</table>
+
+---
+
+<!-- Skills & Expertise -->
+<h2 align="center">🛠️ Technical Arsenal</h2>
+
+### 🔐 Cybersecurity Skills
 <div align="center">
-text
-Backend Development ┃ C#, ASP.NET Core MVC, Web API, RESTful Services
-Database Management ┃ Microsoft SQL Server, Entity Framework Core, LINQ
-Frontend Basics     ┃ HTML5, CSS3, JavaScript, Bootstrap
-Version Control     ┃ Git, GitHub
-IDE & Tools         ┃ Visual Studio, VS Code, Postman
-</div>
-<!-- Enhanced Projects Section --><h2 align="center">🚀 Featured Projects</h2><div align="center">
-https://github-readme-stats.vercel.app/api/pin/?username=Muhammadhusnainiqbal-DotNetdeveloper&repo=My-DotNet-Project&theme=react&bg_color=1F222E&title_color=512BD4&icon_color=512BD4&text_color=FFFFFF&border_color=512BD4
-https://github-readme-stats.vercel.app/api/pin/?username=Muhammadhusnainiqbal-DotNetdeveloper&repo=Muhammadhusnainiqbal-DotNetdeveloper&theme=react&bg_color=1F222E&title_color=512BD4&icon_color=512BD4&text_color=FFFFFF&border_color=512BD4
+  
+| **Penetration Testing** | **Vulnerability Assessment** | **Digital Forensics** |
+|:---:|:---:|:---:|
+| ![Nmap](https://img.shields.io/badge/-Nmap-red) | ![Nessus](https://img.shields.io/badge/-Nessus-blue) | ![Autopsy](https://img.shields.io/badge/-Autopsy-green) |
+| ![Metasploit](https://img.shields.io/badge/-Metasploit-red) | ![OpenVAS](https://img.shields.io/badge/-OpenVAS-blue) | ![Volatility](https://img.shields.io/badge/-Volatility-green) |
+| ![Burp Suite](https://img.shields.io/badge/-Burp_Suite-orange) | ![Qualys](https://img.shields.io/badge/-Qualys-blue) | ![YARA](https://img.shields.io/badge/-YARA-green) |
 
 </div>
-📝 My .NET Projects - Software Engineering Documentation
-🎯 Purpose: Building scalable and secure web applications using ASP.NET Core
-🛠️ Tech Stack: C#, .NET Core, SQL Server, HTML/CSS
-🌟 Highlights: RESTful APIs, MVC Architecture, Database Design
-📊 Impact: Solving real-world problems through clean code
 
-🔍 VU Assignments & Projects - Academic Portfolio
-🎯 Purpose: Showcasing academic projects and learning milestones at VU
-🛠️ Tech Stack: C#, C++, Java, Python
-🌟 Highlights: Data Structures, Algorithms, Web Engineering
-📊 Impact: Consistent learning and practical implementation
+### 💻 Programming & Scripting
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,bash,powershell,javascript,html,css,mysql,mongodb" alt="Programming Languages"/>
+</p>
 
-<!-- Community & Resources --><h2 align="center">🌐 Learning Resources</h2><div align="center">
-🌟 Resource	📝 Description	🔗 Link
-Microsoft Learn	Official .NET Documentation & Tutorials	🌐 Visit Site
-VU LMS	Virtual University Learning Management System	🌐 Visit Site
-W3Schools	Web Development Basics	📝 Read Blog
-Stack Overflow	Developer Community & Q&A	📚 Explore
-</div>
-<!-- Learning Path & Certifications --><h2 align="center">📚 Learning Journey & Roadmap</h2><div align="center">
+### 🐧 Operating Systems & Platforms
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=linux,ubuntu,kali,windows,docker,aws,gcp" alt="Operating Systems"/>
+</p>
 
-
-
-
-
-
-
-
+### 🔧 Security Tools & Frameworks
+<div align="center">
+  
+```text
+Reconnaissance    ┃ Wireshark, Nmap, Masscan, Amass, Subfinder
+Web Testing       ┃ Burp Suite, OWASP ZAP, SQLmap, Gobuster  
+Network Security  ┃ Nessus, OpenVAS, Nikto, Nuclei
+Red Team Tools    ┃ Metasploit, Cobalt Strike, Empire, Covenant
+Forensics        ┃ Autopsy, Volatility, Sleuth Kit, YARA
+OSINT            ┃ Maltego, Shodan, theHarvester, Recon-ng
+```
 
 </div>
-🎯 Certification Roadmap
-✅ C# Programming (Completed)
 
-✅ ASP.NET Core Web Development (In Progress)
+---
 
-🎯 Microsoft Certified: Azure Fundamentals (2025)
+<!-- Enhanced Projects Section -->
+<h2 align="center">🚀 Featured Projects</h2>
 
-🎯 Microsoft Certified: Azure Developer Associate (2026 Goal)
+<div align="center">
+  
+[![Waytobecomehacker](https://github-readme-stats.vercel.app/api/pin/?username=irfan-sec&repo=Waytobecomehacker&theme=react&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&text_color=FFFFFF&border_color=F85D7F)](https://github.com/irfan-sec/Waytobecomehacker)
+[![Aura-sec](https://github-readme-stats.vercel.app/api/pin/?username=irfan-sec&repo=Aura-sec&theme=react&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&text_color=FFFFFF&border_color=F85D7F)](https://github.com/irfan-sec/Aura-sec)
+[![stegano-sec](https://github-readme-stats.vercel.app/api/pin/?username=irfan-sec&repo=stegano-sec&theme=react&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&text_color=FFFFFF&border_color=F85D7F)](https://github.com/irfan-sec/stegano-sec)
+[![InvestiGUI](https://github-readme-stats.vercel.app/api/pin/?username=irfan-sec&repo=InvestiGUI&theme=react&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&text_color=FFFFFF&border_color=F85D7F)](https://github.com/irfan-sec/InvestiGUI)
 
-🎯 Full Stack .NET Developer (2027 Goal)
-
-<!-- GitHub Stats Section --><h2 align="center">📊 GitHub Analytics</h2><div align="center"> <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Muhammadhusnainiqbal-DotNetdeveloper&show_icons=true&theme=react&include_all_commits=true&count_private=true"/> <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Muhammadhusnainiqbal-DotNetdeveloper&layout=compact&langs_count=8&theme=react"/> </div><div align="center"> <img src="https://streak-stats.demolab.com/?user=Muhammadhusnainiqbal-DotNetdeveloper&theme=react&border_radius=10" alt="streak stats"/> </div><div align="center"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=Muhammadhusnainiqbal-DotNetdeveloper&theme=react-dark&bg_color=20232a&hide_border=true" width="100%"/> </div>
-<!-- Development Focus Areas --><h2 align="center">🎯 Development Specializations</h2><div align="center">
-🔵 Backend	🟣 Database	🟢 Frontend
-RESTful APIs	SQL Server	HTML5 / CSS3
-MVC Architecture	Entity Framework	JavaScript
-Authentication/Authorization	LINQ Queries	Bootstrap
-Clean Architecture	Database Design	Responsive Design
 </div>
-🛡️ .NET Ecosystem Knowledge
-text
-🎯 Areas            ┃ 🛠️ Technologies                  ┃ 📊 Proficiency
+
+### 📝 **Cyber-Writeups** - *Security Research Documentation*
+> 🎯 **Purpose:** Comprehensive collection of detailed security writeups and walkthroughs  
+> 🛠️ **Tech Stack:** Markdown, Python, Bash  
+> 🌟 **Highlights:** 100+ detailed writeups, CTF solutions, vulnerability research  
+> 📊 **Impact:** Helping 1000+ security enthusiasts learn penetration testing  
+
+### 🔍 **Aura-sec** - *Advanced Port Scanner*
+> 🎯 **Purpose:** High-performance port scanner with stealth capabilities  
+> 🛠️ **Tech Stack:** Python, Socket Programming, Threading  
+> 🌟 **Highlights:** Anonymous scanning, multi-threading, custom payloads  
+> 📊 **Impact:** Used by security professionals for reconnaissance  
+
+---
+
+<!-- Community & Resources -->
+<h2 align="center">🌐 Community Resources</h2>
+
+<div align="center">
+  
+| 🌟 **Resource** | 📝 **Description** | 🔗 **Link** |
+|:---:|:---:|:---:|
+| **Way to Become Hacker** | Complete cybersecurity learning roadmap | [🌐 Visit Site](https://irfan-sec.github.io/Waytobecomehacker) |
+| **Cyber Learn Systems** | Advanced security training platform | [🌐 Visit Site](https://cyberlearn.systems) |
+| **Security Blog** | Weekly security articles & tutorials | [📝 Read Blog](https://cyberlearn.systems/blog) |
+| **CTF Writeups** | Detailed competition solutions | [📚 Explore](https://github.com/irfan-sec/Cyber-Writeups) |
+
+</div>
+
+---
+
+<!-- Learning Path & Certifications -->
+<h2 align="center">📚 Learning Journey & Roadmap</h2>
+
+<div align="center">
+
+```mermaid
+graph TD
+    A[🎓 Current Learning] --> B[OSCP Preparation]
+    A --> C[Advanced Python Security]
+    A --> D[Red Team Tactics]
+    
+    B --> E[🎯 2026 Goals]
+    C --> E
+    D --> E
+    
+    E --> F[OSCP Certification]
+    E --> G[50+ CTF Wins]
+    E --> H[Security Conference Speaker]
+    E --> I[Advanced Malware Analysis]
+    
+    style A fill:#ff6b6b
+    style E fill:#4ecdc4
+    style F fill:#45b7d1
+    style G fill:#45b7d1
+    style H fill:#45b7d1
+    style I fill:#45b7d1
+```
+
+</div>
+
+### 🎯 Certification Roadmap
+- ✅ **CompTIA Security+** *(In Progress)*
+- ✅ **ISC2** *(In Progress)*
+- 🎯 **OSCP** *(2025)*
+- 🎯 **CISSP** *(2027 Goal)*
+- 🎯 **CEH** *(2026 Goal)*
+
+---
+
+<!-- GitHub Stats Section -->
+<h2 align="center">📊 GitHub Analytics</h2>
+
+<div align="center">
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=irfan-sec&show_icons=true&theme=react&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=irfan-sec&layout=compact&langs_count=8&theme=react"/>
+</div>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com/?user=irfan-sec&theme=react&border_radius=10" alt="streak stats"/>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=irfan-sec&theme=react-dark&bg_color=20232a&hide_border=true" width="100%"/>
+</div>
+
+---
+
+<!-- Security Focus Areas -->
+<h2 align="center">🎯 Security Specializations</h2>
+
+<div align="center">
+  
+| 🔴 **Red Team** | 🔵 **Blue Team** | 🟣 **Purple Team** |
+|:---:|:---:|:---:|
+| Penetration Testing | SOC Analysis | Threat Hunting |
+| Social Engineering | Incident Response | Vulnerability Management |
+| Post-Exploitation | Digital Forensics | Security Architecture |
+| Payload Development | Malware Analysis | Risk Assessment |
+
+</div>
+
+### 🛡️ MITRE ATT&CK Framework Knowledge
+```text
+🎯 Tactics          ┃ 🛠️ Techniques                    ┃ 📊 Proficiency
 ─────────────────────┼──────────────────────────────────┼────────────────
-Language            ┃ C#, OOP, LINQ                    ┃ █████████░ 90%
-Web Framework       ┃ ASP.NET Core MVC, Web API        ┃ ████████░░ 80%
-Database            ┃ SQL Server, EF Core              ┃ ████████░░ 80%
-Frontend            ┃ HTML, CSS, JS, Bootstrap         ┃ ███████░░░ 70%
-Tools               ┃ Visual Studio, Git, Postman      ┃ █████████░ 90%
-Architecture        ┃ MVC, Repository Pattern          ┃ ███████░░░ 70%
-Security            ┃ JWT, Identity, Data Validation   ┃ ██████░░░░ 60%
-Testing             ┃ Unit Testing (xUnit)             ┃ █████░░░░░ 50%
-<!-- Project & Academic Stats --><h2 align="center">🏆 Academic & Project Achievements</h2><div align="center">
-🎯 University Statistics
-Platform	Status	Courses	Focus Area
-Virtual University	Active	5 (Fall 2026)	Computer Science
-Current Semester	Fall 2026	CS205, CS402	Info Sec & Automata
-Web Engineering	Enrolled	CS511	ASP.NET / Web Tech
-Algorithms	Enrolled	CS502	Data Structures
-🏅 Project Highlights
-🥇 Developed - A full-stack Web Application using ASP.NET Core MVC
+Initial Access      ┃ Phishing, Exploit Public-Facing ┃ ████████░░ 80%
+Execution           ┃ Command Line, PowerShell         ┃ █████████░ 90%
+Persistence         ┃ Scheduled Tasks, Services        ┃ ███████░░░ 70%
+Privilege Escalation┃ DLL Injection, Token Imperson.  ┃ ██████░░░░ 60%
+Defense Evasion     ┃ Obfuscation, Process Injection  ┃ ████████░░ 80%
+Credential Access   ┃ Credential Dumping, Brute Force  ┃ █████████░ 90%
+Discovery          ┃ Network Discovery, System Info   ┃ ██████████ 100%
+Lateral Movement   ┃ Remote Services, WMI             ┃ ███████░░░ 70%
+Collection         ┃ Data from Local System           ┃ ████████░░ 80%
+Exfiltration       ┃ Data Transfer, Encrypted Channel ┃ ██████░░░░ 60%
+```
 
-🥈 Database Design - Created a normalized SQL Server database for an E-Commerce system
+---
 
-🥉 API Integration - Built RESTful APIs with JWT Authentication
+<!-- CTF & Competition Stats -->
+<h2 align="center">🏆 Competitive Achievements</h2>
 
-🎖️ Academic Excellence - Consistently submitting VU assignments and projects on time
+<div align="center">
+  
+### 🎯 CTF Statistics
+| Platform | Rank | Points | Machines/Challenges |
+|:---:|:---:|:---:|:---:|
+| **TryHackMe** | Top 10% | 1,500+ | 150+ |
+| **HackTheBox** | Hacker | 2,500+ | 75+ |
+| **PicoCTF** | Top 5% | 800+ | 200+ |
+| **OverTheWire** | Advanced | N/A | 25+ |
+
+### 🏅 Competition Highlights
+- 🥇 **1st Place** - Local CTF Championship 2024
+- 🥈 **2nd Place** - University Cybersecurity Challenge
+- 🥉 **3rd Place** - Regional Bug Bounty Competition
+- 🎖️ **Top 10%** - National Ethical Hacking Contest
 
 </div>
-<!-- Contact & Collaboration --><h2 align="center">🤝 Let's Collaborate!</h2><div align="center">
-🌟 Open for Collaboration On:
-🔐 Backend Development Projects
 
-📝 Open Source .NET Projects
+---
 
-🎯 University Study Groups
+<!-- Contact & Collaboration -->
+<h2 align="center">🤝 Let's Collaborate!</h2>
 
-🛡️ Web Application Development
+<div align="center">
+  
+### 🌟 **Open for Collaboration On:**
+- 🔐 Security Tool Development
+- 📝 Research Papers & Publications  
+- 🎯 CTF Team Participation
+- 🛡️ Open Source Security Projects
+- 📚 Educational Content Creation
+- 🎤 Conference Speaking Opportunities
 
-📚 Educational Content Creation
+### 📬 **Get In Touch:**
+<a href="mailto:ceoirfan@cyberlearn.systems">
+  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+</a>
+<a href="https://www.linkedin.com/in/irfan-security">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+<a href="https://twitter.com/irfan_sec">
+  <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
+</a>
 
-📬 Get In Touch:
-<a href="mailto:bc250416281mhi@vu.edu.pk"> <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/> </a> <a href="https://www.linkedin.com/in/muhammad-husnain-iqbal"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/> </a>
-💬 "First, solve the problem. Then, write the code."
+### 💬 **"The best defense is a good offense, but the best offense requires understanding defense."**
+
 </div>
-<!-- Footer --><div align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=150&section=footer" width="100%"/>
-⭐ If you find my work valuable, please consider giving it a star! ⭐
 
-</div> ```
+---
+
+<!-- Footer -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=150&section=footer" width="100%"/>
+  
+  **⭐ If you find my work valuable, please consider giving it a star! ⭐**
+  
+  ![Snake animation](https://github.com/irfan-sec/irfan-sec/blob/output/github-contribution-grid-snake.svg)
+  
+</div>
